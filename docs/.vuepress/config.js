@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'GitOps Conversation Kit',
+    title: 'GitOps Community',
     description: 'Learn how to bring GitOps to your team',
     themeConfig: {
         displayAllHeaders: true,
