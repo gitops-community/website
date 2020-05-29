@@ -15,7 +15,6 @@ module.exports = {
         },
         sidebar: [
             'intro/',
-            'links/',
         ]
     },
     head: [
