@@ -1,4 +1,26 @@
+### GitOps Conversation Kit (beta)
 
+Congratulations! You have early access to the GitOps Conversation Kit (beta)!
+We hope that this kit will provide you with the quotes, use cases, customer stories, training materials, and more so that you can move the needle with GitOps in your organization - with leadership, stakeholders, and dev and platform teams. 
+
+This is a living kit that we will improve with your feedback with future versions.
+
+## TL;DR
+
+You’re probably looking for the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)! 
+
+Don’t miss the topic-based guide below to the videos and, in the future, more resources such as blog posts, tutorials, etc.
+
+
+### Need Help?
+
+Anything missing? Did anything work well? Send us your feedback!
+
+_Email: gitops@weave.works_
+
+_Slack: Message @here in the #gitopsdays channel in Slack: [https://slack.weave.works/](https://slack.weave.works/)_
+
+_Slack: We also have a general #gitops channel in Kubernetes Slack: [https://kubernetes.slack.com/archives/gitops](https://kubernetes.slack.com/archives/gitops)_
 
 ## What is GitOps?
 
