@@ -7,7 +7,7 @@ meta:
 sidebar: auto
 heroText: Welcome to the GitOps Community
 heroImage: cuddle_clap.gif
-tagline: Congratulations! Try your first step to GitOps with the GitOps Conversation Kit!
+tagline: Congratulations! Take your first step to GitOps with the GitOps Conversation Kit!
 actionText: View the Kit →
 actionLink: intro/
 footer: Apache License 2.0 | Copyright © 2020 Weaveworks
