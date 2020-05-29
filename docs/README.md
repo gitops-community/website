@@ -10,7 +10,7 @@ heroImage: cuddle_clap.gif
 tagline: Congratulations! Take your first step to GitOps with the GitOps Conversation Kit!
 actionText: View the Kit →
 actionLink: kit/
-footer: Apache License 2.0 | Copyright © 2020 Weaveworks
+footer: Creative Commons Attribution 4.0 | Copyright © 2020 GitOps Community
 ---
 
 
