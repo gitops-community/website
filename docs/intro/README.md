@@ -472,5 +472,4 @@ Check out the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.c
 
 * Flagger and Service Meshes: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
 
-* [Thanks, and What’s your next step to GitOps? – Cornelia Davis and Tamao Nakahara]
-(https://drive.google.com/file/d/1JJ4vw9wh5j0tqbq1MUxeKOpqRNepCydR/view?usp=sharing)
+* [Thanks, and What’s your next step to GitOps? – Cornelia Davis and Tamao Nakahara](https://drive.google.com/file/d/1JJ4vw9wh5j0tqbq1MUxeKOpqRNepCydR/view?usp=sharing)
