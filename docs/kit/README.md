@@ -8,7 +8,7 @@ Congratulations! You have early access to the GitOps Conversation Kit (beta)!
 
 We hope that this kit will provide you with the quotes, use cases, user stories, training materials, and more so that you can move the needle with GitOps in your organization - with leadership, stakeholders, and dev and platform teams. 
 
-[Weaveworks](www.weave.works) is donating this kit to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
+[Weaveworks](https://www.weave.works/) is donating this kit to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
 
 
 ### TL;DR
