@@ -14,7 +14,7 @@ module.exports = {
             logo: 'cuddle_fish.png', 
         },
         sidebar: [
-            'intro/',
+            'kit/',
         ]
     },
     head: [
