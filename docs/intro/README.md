@@ -18,28 +18,26 @@ Don’t miss the topic-based guide below to the videos and, in the future, more 
 
 _Want updates about this kit?_
 
-Get updates through the very non-spammy GitOps Community list: Register at [https://www.gitopsdays.com/](https://www.gitopsdays.com/) and look out for an email invitation to the list (It's an outbound only Google Group).
+* Get updates through the very non-spammy GitOps Community list: Register at [https://www.gitopsdays.com/](https://www.gitopsdays.com/) and look out for an email invitation to the list (It's an outbound-only Google Group).
 
 _Confused about anything or have feedback?_
 
-Contribute here: [https://github.com/gitops-community/website](https://github.com/gitops-community/website)
+* Contribute here: [https://github.com/gitops-community/website](https://github.com/gitops-community/website)
 
-Email us: gitops@weave.works
+* Email us: gitops@weave.works
 
 _Want to chat with the commmunity?_
 
-Join the #gitopsdays channel in Slack: [https://slack.weave.works/](https://slack.weave.works/)
+* Join the #gitopsdays channel in Slack: [https://slack.weave.works/](https://slack.weave.works/)
 
-We also have the #gitops channel in Kubernetes Slack: [https://kubernetes.slack.com/archives/Gitops](https://kubernetes.slack.com/archives/gitops)
+* Ping us also on the #gitops channel in Kubernetes Slack: [https://kubernetes.slack.com/archives/Gitops](https://kubernetes.slack.com/archives/gitops)
 
 
 ## What is GitOps?
 
-GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business value. (see 1:53)
+GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business value. (see 1:53) (From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
 
-(From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
-
-GitOps all the things! Don’t miss these stories and use cases where GitOps practitioners are using GitOps for development, operations, and so much more!
+What do you GitOps? GitOps all the things! Don’t miss the stories and use cases in this kit from GitOps practitioners who are using GitOps for development, operations, and so much more!
 
 GitOps is an app dev and operations methodology that leverages 
 
@@ -51,11 +49,11 @@ GitOps is an app dev and operations methodology that leverages
 
 Cornelia Davis (see 1:50) gives a great overview of the evolution of GitOps from being mostly a delivery process to going beyond that into all areas of application development and operations. (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
-Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub)](https://youtu.be/mneDm2ebl-g) 
+Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub))](https://youtu.be/mneDm2ebl-g) 
 
-Cornelia (see 14:00) adds that **GitOps = Continuous Delivery + Continuous Operation**
+Cornelia adds that **GitOps = Continuous Delivery + Continuous Operation**
 
-In some cases, there might be some requirements for CI, but **_not_** a replacement for CI.
+In some cases, there might be some requirements for CI, but **_not_** a replacement for CI. (see 14:00) 
 
 
 
@@ -69,7 +67,7 @@ In some cases, there might be some requirements for CI, but **_not_** a replacem
 
 ### The 4 Principles of GitOps
 
-You can start your GitOps journey with any one of the following 4 principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia (see 7:12) breaks down the 4 principles.
+You can start your GitOps journey with any one of the following 4 principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia breaks down the 4 principles. (see 7:12) 
 
 
 
@@ -78,9 +76,7 @@ You can start your GitOps journey with any one of the following 4 principles. Ma
 ![alt_text](/slides/1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps.png "1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps")
 
 
-Most importantly, these are principles, **_not technologies_**. You can apply the principles across many of your existing technologies without replacing them. 
-
-(From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
+Most importantly, these are principles, **_not technologies_**. You can apply the principles across many of your existing technologies without replacing them. (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
 
 ### GitOps doesn’t mean replacing existing technologies
@@ -89,7 +85,7 @@ Getting started with GitOps doesn’t mean you have to replace your existing tec
 
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
-Javeria Kahn (see 11:00 and 18:15) lists out several technologies that your teams probably use already that can get you on the path towards GitOps. For operators, there is Atlantis for Terraform, Salt, Ansible, Puppet, Flux, and ArgoCD, and for app developers, there is Skaffold, Draft, GitKube, Helm, Kustomize, Flux, ArgoCD, and Flagger. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+Javeria Kahn (see 11:00 and 18:15) lists out several technologies that your teams probably use already that can get you on the path towards GitOps. For operators, Javeria's team uses Atlantis for Terraform, Salt, Ansible, Puppet, Flux, and ArgoCD, and for app developers, they use Skaffold, Draft, GitKube, Helm, Kustomize, Flux, ArgoCD, and Flagger. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
 
 ### “GitOps” doesn’t require Git
@@ -105,9 +101,9 @@ Kyle talks about “SheetOps” where, as long as you have version control, you 
 
 
 
-1. **YAML:** The future of GitOps means that you can go beyond YAML with technologies like TypeScript, Python, cdk8s, jkcfg. Find the tool that’s best for the developer and DevOps engineer to describe their configs.
+1. **YAML:** The future of GitOps means that you can go beyond YAML with technologies like TypeScript, Python, cdk8s, jkcfg. Find the tool that’s best for the developers and DevOps engineers to describe their configs.
 2. **Storing in Git:** You aren’t constrained to Git. You can use container registries, even ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
-3. **What can you GitOps?:** You can GitOps not just apps, but infrastructure, things that go onto DNS and identity providers, Chaos experiments and Kubernetes Clusters, and more. In fact, you can GitOps all the things!
+3. **What can you GitOps?:** You can GitOps not just apps, but infrastructure, things that go onto DNS and identity providers, Chaos experiments and Kubernetes Clusters, and more. You can GitOps all the things!
 
 Hear Cornelia break this down (see 9:57) (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
@@ -116,7 +112,7 @@ Hear Cornelia break this down (see 9:57) (From [There's More to GitOps than Meet
 
 ### Scaling the team and meeting CapEx and OpEx needs:
 
-Vuk Gojnic (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+Vuk Gojnic of Deutsche Telekom (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 Kyle Rockman (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
@@ -130,11 +126,11 @@ Kyle Rockman (see 5:54) says that GitOps brings Speed and Reliability to ship mo
 
 Vuk Gojnic (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
-Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy _**that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy_** that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
 ### Security:
 
-Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error and breaches and vulnerabilities before they become costly company-wide problems.
+Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error, breaches, and vulnerabilities before they become costly company-wide problems.
 
 GitOps allows what Maya calls “Continuous Security” - the ability to be continuously integrating security at all times. When you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. 
 
@@ -144,7 +140,7 @@ GitOps provides 1) Immutable infrastructure, 2) Single source of truth, and 3) D
 
 
 
-1. **Immutable infrastructure:** immutability protects you from making changes and errors. Since deployments are separate from development, you can deploy frequently knowing that if something goes wrong, then you know immediately. 
+1. **Immutable infrastructure:** immutability protects you from making changes and errors. Since deployments are separate from development, you can deploy frequently knowing that if something goes wrong, then you find out immediately. 
 2. **Single source of truth:** Having a single source of truth means that you have a single process to make changes. You can use Git to manage policies and implement necessary controls to meet your security needs.
 3. **Dev velocity:** version control, test automation, and other tooling available with Git allow devs to move faster and securely. With GitOps, you can optimize your mean time to remediate (MTTR) because if an upgrade is susceptible to vulnerabilities, you can quickly deploy a fix without breaking the infrastructure. For instance, users of GitHub’s Dependabot feature receive an automatically triggered PR to update a vulnerable dependency to a known fixed version. Repos that have enabled Dependabot have shown an average MTTR of about 40 days, way lower than many industry metrics that range from 180 days to 2 years. 
 
