@@ -4,7 +4,7 @@ Congratulations! You have early access to the GitOps Conversation Kit (beta)!
 
 We hope that this kit will provide you with the quotes, use cases, user stories, training materials, and more so that you can move the needle with GitOps in your organization - with leadership, stakeholders, and dev and platform teams. 
 
-This is a living kit from Weaveworks to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
+[Weaveworks](www.weave.works) is donating this kit to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
 
 
 ### TL;DR
@@ -24,7 +24,7 @@ _Confused about anything or have feedback?_
 
 Contribute here: [https://github.com/gitops-community/website](https://github.com/gitops-community/website)
 
-Email us: gitops@weave.works
+Email us: [gitops@weave.works](mailto:gitops@weave.works)
 
 _Want to chat with the commmunity?_
 
@@ -201,7 +201,7 @@ Alternatively, companies that don’t rank well show metrics of losing profits a
 
 Cornelia Davis (see 13:17) discusses how improving app team productivity with GitOps helps to reach the first two DORA metrics - increasing deployment frequency and reducing lead time. Giving application teams access to a GitOps-based platform allows application developers and DevOps engineers to use familiar tools and Git-based workflows like pull requests to optimize their efficiency. All of the concerns, beyond the development and testing of application functionality, such as security and compliance, are all baked into the platform (also managed in a GitOps manner). This keeps the application teams from spending time here and furthers their productivity. That is, applying GitOps approaches and using familiar tools makes it possible for app teams to increase their productivity, delivering on metrics that DORA has correlated with high-performing and profitable organizations. (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
 
-**2) Metrics impacted through the realization of _App team autonomy: _**
+**2) Metrics impacted through the realization of _App team autonomy:_**
 
 GitOps allows for app teams to act more autonomously, or otherwise put, it enables a self-service model. App team independence contributes to both decreasing lead time (the amount of time from code complete to production deployment) and increasing deployment frequency.
 
@@ -335,7 +335,7 @@ Kyle Rockman (see 9:20) shares the importance of being empathetic and taking ser
 
 Several GitOps Days speakers agreed that there is an upfront investment of needing to study up on GitOps so that you can be prepared with your position and to answer questions. We hope that the resources in this GitOps Conversation Kit (beta) and moving forward will provide you with those necessary resources. 
 
-Also, reach out to us for help (gitops@weave.works). We offer some free and paid options to work with and train your stakeholders and team. 
+Also, reach out to us for help [(gitops@weave.works)](mailto:gitops@weave.works). We offer some free and paid options to work with and train your stakeholders and team. 
 
 
 ### Start with Small Steps
@@ -401,7 +401,7 @@ Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goa
 
 [ ] [Watch this video](https://youtu.be/TbFu4hG73wg) that walks you through the steps of the GitOps Hands-On
 
-[ ] [This video](https://www.youtube.com/watch?v=WHzxunv4DKk&t=6582s) shows us guiding the audience through the GitOps Hands-On (including troubleshooting). Contact us if you would like us to do this again!
+[ ] [This video](https://www.youtube.com/watch?v=WHzxunv4DKk&t=6582s) shows us guiding the audience through the GitOps Hands-On (including troubleshooting). [Contact us](mailto:gitops@weave.works) if you would like us to do this again!
 
 ### GitOps Tools:
 
