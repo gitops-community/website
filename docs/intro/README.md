@@ -7,24 +7,30 @@ We hope that this kit will provide you with the quotes, use cases, user stories,
 This is a living kit from Weaveworks to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
 
 
-## TL;DR
+### TL;DR
 
 You’re probably looking for the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)! 
 
 Don’t miss the topic-based guide below to the videos and, in the future, more resources such as blog posts, tutorials, etc.
 
 
-## Need Help?
+### Need Help or want updates?
 
-Anything missing? Did anything work well? Send us your feedback!
+_Want updates about this kit?_
 
-_Submit an issue or PR._
+Get updates through the very non-spammy GitOps Community list: Register at [https://www.gitopsdays.com/](https://www.gitopsdays.com/) and look out for an email invitation to the list (It's an outbound only Google Group).
 
-_Email: Gitops@weave.works_
+_Confused about anything or have feedback?_
 
-_Slack: Message @here in the #Gitopsdays channel in Slack: [https://slack.weave.works/](https://slack.weave.works/)_
+Contribute here: [https://github.com/gitops-community/website](https://github.com/gitops-community/website)
 
-_Slack: We also have a general #Gitops channel in Kubernetes Slack: [https://kubernetes.slack.com/archives/Gitops](https://kubernetes.slack.com/archives/gitops)_
+Email us: gitops@weave.works
+
+_Want to chat with the commmunity?_
+
+Join the #gitopsdays channel in Slack: [https://slack.weave.works/](https://slack.weave.works/)
+
+We also have the #gitops channel in Kubernetes Slack: [https://kubernetes.slack.com/archives/Gitops](https://kubernetes.slack.com/archives/gitops)
 
 
 ## What is GitOps?
@@ -61,7 +67,7 @@ In some cases, there might be some requirements for CI, but **_not_** a replacem
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
 
-## The 4 Principles of GitOps
+### The 4 Principles of GitOps
 
 You can start your GitOps journey with any one of the following 4 principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia (see 7:12) breaks down the 4 principles.
 
@@ -77,7 +83,7 @@ Most importantly, these are principles, **_not technologies_**. You can apply th
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
 
-## GitOps doesn’t mean replacing existing technologies
+### GitOps doesn’t mean replacing existing technologies
 
 Getting started with GitOps doesn’t mean you have to replace your existing technologies. The 4 principles of GitOps are principles, not technologies. You can apply the principles across many of your existing and future technologies. 
 
@@ -86,7 +92,7 @@ Getting started with GitOps doesn’t mean you have to replace your existing tec
 Javeria Kahn (see 11:00 and 18:15) lists out several technologies that your teams probably use already that can get you on the path towards GitOps. For operators, there is Atlantis for Terraform, Salt, Ansible, Puppet, Flux, and ArgoCD, and for app developers, there is Skaffold, Draft, GitKube, Helm, Kustomize, Flux, ArgoCD, and Flagger. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
 
-## “GitOps” doesn’t require Git
+### “GitOps” doesn’t require Git
 
 You aren’t constrained to Git. You can use container registries, even ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
 
@@ -95,7 +101,7 @@ Hear Cornelia Davis break this down (see 9:57) (From [There's More to GitOps tha
 Kyle talks about “SheetOps” where, as long as you have version control, you can use something like Google Sheets as a UI for Gitops-types processes. 
 
 
-## The Future of GitOps
+### The Future of GitOps
 
 
 
@@ -108,25 +114,25 @@ Hear Cornelia break this down (see 9:57) (From [There's More to GitOps than Meet
 
 ## The Business value of GitOps
 
-**Scaling the team and meeting CapEx and OpEx needs: **
+### Scaling the team and meeting CapEx and OpEx needs:
 
 Vuk Gojnic (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 Kyle Rockman (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-**Uptime and Reliability:** 
+### Uptime and Reliability:
 
 Taylor Dolezal (25:55) shares how uptime is a common go-to shared benefit where leadership and teams can find agreement, so talking about how GitOps improves uptime can be a good starting point. From there, failure rates, SLOs, SLAs, and SLIs can be a place to find common goals and priorities. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
 
 Kyle Rockman (see 5:54) says that GitOps brings Speed and Reliability to ship more quickly with confidence. This is because GitOps includes explicit review processes that eliminate human errors. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-**Automation:** 
+### Automation:
 
 Vuk Gojnic (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy _**that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-**Security:**
+### Security:
 
 Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error and breaches and vulnerabilities before they become costly company-wide problems.
 
@@ -154,7 +160,7 @@ GitOps provide Continuous Security, which will help you with supportability and 
 
 Kyle Rockman (see 5:54) says that GitOps creates an audit trail so that you can show the auditors what’s been happening and you can meet PCI compliance requirements. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-**Transparency and Collaboration:**
+### Transparency and Collaboration:
 
 Javeria Kahn (see 6:00) shares how GitOps brings transparency to the org primarily from two capabilities: 
 
@@ -167,11 +173,11 @@ Because of these 2 benefits, the teams are able to build <span style="text-decor
 
 Javeria (see 7:50) states that GitOps promotes <span style="text-decoration:underline;">collaboration</span> between teams that build and use their resources. Between transparency and collaboration through GitOps, teams are able to improve the entire software development lifecycle. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
-**Reduce the risk of relying on single employees:**
+### Reduce the risk of relying on single employees:
 
 Relying on individual employees who live with the pager both raises risk for the company and causes burnout with the employee. Javeria Kahn (see 6:00) states that automation based on GitOps helps employees not get burned out, helps them expand their role, and helps reduce risk for the company with a reliable system. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
-**Use metrics from DevOps Research and Assessment (DORA):**
+### Use metrics from DevOps Research and Assessment (DORA):
 
 Cornelia Davis (see 3:37) refers to the [reports from DevOps Research and Assessment (DORA](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling)) that show that companies that perform well with profits and growing market share are companies the rank well in these 4 categories: 
 
@@ -247,8 +253,9 @@ GitOps provides distinct solutions to the DORA categories so that you can connec
 
 (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
 
+## Starting the Conversation
 
-## Show Demos to make the GitOps benefits real
+### Show Demos to make the GitOps benefits real
 
 **Demo something tangible:**
 
@@ -269,7 +276,7 @@ Taylor Dolezal (see 39:15) agrees that, especially if you’re in a large organi
 Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goal of automating the infrastructure. Then, over time, as the practice became pervasive and known, they handed over the keys to the engineers. This way, they took small steps with particular teams, gained a level of comfort with GitOps across the various teams, and “leveled up” across the org. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
 
-## Be empathetic and Work as a team
+### Be empathetic and Work as a team
 
 **People are busy and change is difficult:** 
 
@@ -300,8 +307,8 @@ For the infrastructure layer, you’ll want to talk with the
 
 
 1. SREs, 
-2. 2) Infrastructure engineers, and 
-3. 3) Management. 
+2. Infrastructure engineers, and 
+3. Management. 
 
 For the app layer (see 18:15), include stakeholders such as the 
 
@@ -331,9 +338,9 @@ Several GitOps Days speakers agreed that there is an upfront investment of needi
 Also, reach out to us for help (gitops@weave.works). We offer some free and paid options to work with and train your stakeholders and team. 
 
 
-## Start with Small Steps
+### Start with Small Steps
 
-**Solve existing business drivers: **
+**Solve existing business drivers:**
 
 Dan Brubaker Horst (42:20) shared the valuable position that it’s ok to treat GitOps as a viable option no matter where you are in the journey. Understand the business drivers in your organization and find the ways that GitOps can help with those needs. GitOps is not an end goal in itself, but a solution to existing needs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
 
@@ -345,7 +352,7 @@ Kyle Rockman (see 16:15) talked about how they started by identifying and catego
 
 One pain point that Javeria Kahn (see 23:45) mentions for devs is the dependency on admins. If you’re preparing to introduce GitOps to your dev teams, Javeria recommends socializing this benefit to devs because it is likely something they want already. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
-Use Cases
+## Use Cases
 
 **On-prem example using Kubernetes:** Javeria Kahn (see 14:50) breaks down their particular use case and tools first for infrastructure:
 
@@ -375,7 +382,9 @@ And then for the app layer (see 20:30):
 
 Niraj Amin (see 9:41) shares how his platform team at Fidelity uses EKS and about 15-16 different components to enable their dev teams (things like ALB ingress controller, external DNS, etc.). They combine features from EKS, open source, infrastructure code, and custom operators to provide their dev teams with a set of features such as automation. This “bundle” of offerings is their platform that provides services across business units and environments. For instance, if they make a change to the ingress rule for a security group, that group would essentially receive another version of the platform “bundle.” So dev teams, DevOps teams, SRE teams, etc. would be able to upgrade their platform to include the set of features that are “bundled” together by the platform team. The end goal is for those teams is not to have to think about the platform at all and to focus on their roles.
 
-**Culture based on stability:** Dan Brubaker Horst (see 33:30) shares how, in a work culture based on job security, there can be general concerns when new approaches, processes, or tools are introduced. Also, their success metrics are not necessarily based on velocity where workflow processes may be scheduled out for weeks. The culture also includes employees whose main role is to maintain legacy systems and to be on call. For these types of use cases, being able to leverage approaches that improve automation and reliability doesn’t mean lower job security. In fact, as Vuk Gojnic shares, it means that the team can scale and do more with existing tools and team members, not lose their jobs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+**Culture based on stability:** 
+
+Dan Brubaker Horst (see 33:30) shares how, in a work culture based on job security, there can be general concerns when new approaches, processes, or tools are introduced. Also, their success metrics are not necessarily based on velocity where workflow processes may be scheduled out for weeks. The culture also includes employees whose main role is to maintain legacy systems and to be on call. For these types of use cases, being able to leverage approaches that improve automation and reliability doesn’t mean lower job security. In fact, as Vuk Gojnic shares, it means that the team can scale and do more with existing tools and team members, not lose their jobs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 Kyle Rockman shares similar stories that the team worked to automate themselves out of their current jobs, but onto more improvements because there’s always more to do! (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
@@ -386,7 +395,7 @@ Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goa
 
 ## First GitOps steps for your dev and platform teams
 
-**GitOps Hands-On:**
+### GitOps Hands-On:
 
 [ ] Try [this GitOps Hands-On](https://eks.handson.flagger.dev/) to get a tangible experience of GitOps and a canary deployment
 
@@ -394,7 +403,7 @@ Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goa
 
 [ ] [This video](https://www.youtube.com/watch?v=WHzxunv4DKk&t=6582s) shows us guiding the audience through the GitOps Hands-On (including troubleshooting). Contact us if you would like us to do this again!
 
-**GitOps Tools:**
+### GitOps Tools:
 
 Tools mentioned by GitOps Days speakers include:
 
@@ -422,35 +431,44 @@ Tools mentioned by GitOps Days speakers include:
 *   [Skaffold](https://skaffold.dev) - [Mentioned at GitOps Days](https://www.youtube.com/watch?v=HJHLIGL8NfQ)
 *   [Terraform](https://www.terraform.io)
 
+### Things to teach:
+
 **Teach YAML to your teams (if that’s what you choose to use to describe your configs):**
 
 Kyle Rockman (see 8:24) shares how, at Under Armour, they use YAML and training up their devs to understand the YAML they are writing has paid spades. Trained team mates help each other out, everybody across the org knows best practices, and they organically continue to learn as new features come out.
 
 (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-More resources to come!
+More teaching resources to come!
 
 
-## GitOps Days 2020 Session Slides
+# GitOps Days 2020 Sessions
 
-[Welcome! GitOps Today: What is it and why you should care – Alexis Richardson](https://drive.google.com/file/d/1KQ6l4yIsubjyaq8z4WMTQwMrZCPwguhJ/view?usp=sharing)
+## GitOps Days 2020 YouTube Playlist
+Check out the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)! 
 
-[There’s More to GitOps than Meets the Eye – Cornelia Davis](https://drive.google.com/file/d/1MJxYN5yhK6w7ijnLlyWlnC_Oi6XraYZV/view?usp=sharing)
+## GitOps Days 2020 Slides
 
-[GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://drive.google.com/file/d/1VVxs4BwoUzyBMnV8vC8cVObQd8KcNZuX/view?usp=sharing)
+* [Welcome! GitOps Today: What is it and why you should care – Alexis Richardson](https://drive.google.com/file/d/1KQ6l4yIsubjyaq8z4WMTQwMrZCPwguhJ/view?usp=sharing)
 
-[GitOps at Adobe – Carlos Sanchez (Adobe)](https://carlossg.github.io/presentations/2020-05_gitopsdays/#/)
+* [There’s More to GitOps than Meets the Eye – Cornelia Davis](https://drive.google.com/file/d/1MJxYN5yhK6w7ijnLlyWlnC_Oi6XraYZV/view?usp=sharing)
 
-[GitOps for Machine Learning Ops – David Aronchick (Microsoft)](https://drive.google.com/file/d/1yoR452m4XsjXgQ3pB94zv9lyu4eHCD-_/view?usp=sharing)
+* [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://drive.google.com/file/d/1VVxs4BwoUzyBMnV8vC8cVObQd8KcNZuX/view?usp=sharing)
 
-[GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more! – Cornelia Davis](https://drive.google.com/file/d/11kzZqyhLdAAfquhlH3XVuIBOk2j6INKy/view?usp=sharing)
+* [GitOps at Adobe – Carlos Sanchez (Adobe)](https://carlossg.github.io/presentations/2020-05_gitopsdays/#/)
 
-[Security and GitOps – Maya Kaczorowski (GitHub)](https://github.com/mayakacz/presentation-slides/blob/master/20200520%20-%20GitOps%20Day%202020%20-%20Security%20and%20GitOps.pdf)
+* [GitOps for Machine Learning Ops – David Aronchick (Microsoft)](https://drive.google.com/file/d/1yoR452m4XsjXgQ3pB94zv9lyu4eHCD-_/view?usp=sharing)
 
-[Day 1 Closing Keynote: 2020 is the year of GitOps and Progressive Delivery – James Governor (Redmonk)](https://drive.google.com/file/d/1BF4a598OeRw41yioLUZZIsVeLaTh1l1S/view?usp=sharing)
+* [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more! – Cornelia Davis](https://drive.google.com/file/d/11kzZqyhLdAAfquhlH3XVuIBOk2j6INKy/view?usp=sharing)
 
-[GitOps Today and Tomorrow: Conceptual Overview and Technical Deep Dive – Cornelia Davis](https://drive.google.com/file/d/1YMlZLSaevuYoZ6ZjtCbQ0JpkU3L7ZrBi/view?usp=sharing)
+* [Security and GitOps – Maya Kaczorowski (GitHub)](https://github.com/mayakacz/presentation-slides/blob/master/20200520%20-%20GitOps%20Day%202020%20-%20Security%20and%20GitOps.pdf)
 
-Flux and Helm: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+* [Day 1 Closing Keynote: 2020 is the year of GitOps and Progressive Delivery – James Governor (Redmonk)](https://drive.google.com/file/d/1BF4a598OeRw41yioLUZZIsVeLaTh1l1S/view?usp=sharing)
 
-Flagger and Service Meshes: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+* [GitOps Today and Tomorrow: Conceptual Overview and Technical Deep Dive – Cornelia Davis](https://drive.google.com/file/d/1YMlZLSaevuYoZ6ZjtCbQ0JpkU3L7ZrBi/view?usp=sharing)
+
+* Flux and Helm: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+
+* Flagger and Service Meshes: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+
+* Thanks, and What’s your next step to GitOps? – Cornelia Davis and Tamao Nakahara (link coming soon)
