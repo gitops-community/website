@@ -1,3 +1,7 @@
+---
+sidebarDepth: 2
+---
+
 # GitOps Conversation Kit (beta)
 
 Congratulations! You have early access to the GitOps Conversation Kit (beta)!
