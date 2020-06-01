@@ -1,0 +1,23 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bahmutov/npm-install@v1.1.0  # works with yarn cache
+
+    - name: Setup known_hosts and deploy key
+      run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.DEPLOY_KEY_GITHUB_IO }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+    - run: yarn run publish
