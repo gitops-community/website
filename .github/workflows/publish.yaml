@@ -19,5 +19,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           echo "${{ secrets.DEPLOY_KEY_GITHUB_IO }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
+          git config --global user.name "website/publish GH Action"
+          git config --global user.email "publish-bot@gitops-community"
 
     - run: yarn run publish
