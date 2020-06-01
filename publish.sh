@@ -16,7 +16,7 @@ mkdir -p dist
 vuepress build docs --dest dist
 
 git clone --depth 1 \
-	"${TARGET_REPO}"
+	"${TARGET_REPO}" \
 	publish/
 
 rm -rf publish/*

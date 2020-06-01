@@ -106,7 +106,7 @@ Kyle talks about “SheetOps” where, as long as you have version control, you 
 
 
 
-1. **YAML:** The future of GitOps means that you can go beyond YAML with technologies like TypeScript, Python, cdk8s, jkcfg. Find the tool that’s best for the developers and DevOps engineers to describe their configs.
+1. **Beyond YAML:** The future of GitOps means that you can go beyond YAML with technologies like TypeScript, Python, cdk8s, jkcfg. Find the tool that’s best for the developers and DevOps engineers to describe their configs.
 2. **Storing in Git:** You aren’t constrained to Git. You can use container registries, even ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
 3. **What can you GitOps?:** You can GitOps not just apps, but infrastructure, things that go onto DNS and identity providers, Chaos experiments and Kubernetes Clusters, and more. You can GitOps all the things!
 
