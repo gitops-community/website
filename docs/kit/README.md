@@ -46,8 +46,6 @@ What do you GitOps? GitOps all the things! Don’t miss the stories and use case
 
 GitOps is an app dev and operations methodology that leverages 
 
-
-
 1. an entire system that is described declaratively
 2. code that is version controlled and
 3. software agents that reconcile and ensure correctness (along with alerts, etc). 
@@ -60,23 +58,13 @@ Cornelia adds that **GitOps = Continuous Delivery + Continuous Operation**
 
 In some cases, there might be some requirements for CI, but **_not_** a replacement for CI. (see 14:00) 
 
-
-
-
-
 ![alt_text](/slides/0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps.png "0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps")
 
-
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
-
 
 ### The 4 Principles of GitOps
 
 You can start your GitOps journey with any one of the following 4 principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia breaks down the 4 principles. (see 7:12) 
-
-
-
-
 
 ![alt_text](/slides/1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps.png "1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps")
 
@@ -103,8 +91,6 @@ Kyle talks about “SheetOps” where, as long as you have version control, you 
 
 
 ### The Future of GitOps
-
-
 
 1. **Beyond YAML:** The future of GitOps means that you can go beyond YAML with technologies like TypeScript, Python, cdk8s, jkcfg. Find the tool that’s best for the developers and DevOps engineers to describe their configs.
 2. **Storing in Git:** You aren’t constrained to Git. You can use container registries, even ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
@@ -142,17 +128,11 @@ GitOps allows what Maya calls “Continuous Security” - the ability to be cont
 So what is GitOps for Security? 
 
 GitOps provides 1) Immutable infrastructure, 2) Single source of truth, and 3) Dev velocity to help you automate security.
-
-
-
 1. **Immutable infrastructure:** immutability protects you from making changes and errors. Since deployments are separate from development, you can deploy frequently knowing that if something goes wrong, then you find out immediately. 
 2. **Single source of truth:** Having a single source of truth means that you have a single process to make changes. You can use Git to manage policies and implement necessary controls to meet your security needs.
 3. **Dev velocity:** version control, test automation, and other tooling available with Git allow devs to move faster and securely. With GitOps, you can optimize your mean time to remediate (MTTR) because if an upgrade is susceptible to vulnerabilities, you can quickly deploy a fix without breaking the infrastructure. For instance, users of GitHub’s Dependabot feature receive an automatically triggered PR to update a vulnerable dependency to a known fixed version. Repos that have enabled Dependabot have shown an average MTTR of about 40 days, way lower than many industry metrics that range from 180 days to 2 years. 
 
 GitOps also improves security of the dev pipeline in 3 ways: 
-
-
-
 1. **Code:** using Git means that you have a static file for comparing requirements. In YAML it’s pretty easy to check if you’re meeting them. If your access policies are declared in a config file, you know who has access to what and you can verify it in code. 
 2. **Changes:** you have versioning so you know what you shipped and can roll back. Your commit history is an audit of comments, reviews, and a history of decisions that were made to your repo. 
 3. **Production:** the single source of truth with a single process removes the humans who are error prone. You implement a single set of tests, security scans, and permissions to make these changes securely.
@@ -164,9 +144,6 @@ Kyle Rockman (see 5:54) says that GitOps creates an audit trail so that you can 
 ### Transparency and Collaboration:
 
 Javeria Kahn (see 6:00) shares how GitOps brings transparency to the org primarily from two capabilities: 
-
-
-
 1. **Reversibility:** You can do rollbacks and lower mean time to resolving config-based outages with version controlling.
 2. **Audit trails:** You can track the history of a repo, its PRs, actions, etc.
 
@@ -182,8 +159,6 @@ Relying on individual employees who live with the pager both raises risk for the
 
 Cornelia Davis (see 3:37) refers to the [reports from DevOps Research and Assessment (DORA](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling)) that show that companies that perform well with profits and growing market share are companies the rank well in these 4 categories: 
 
-
-
 1. Deployment frequency 
 2. Lead time for changes 
 3. Time to restore service 
@@ -191,12 +166,7 @@ Cornelia Davis (see 3:37) refers to the [reports from DevOps Research and Assess
 
 Alternatively, companies that don’t rank well show metrics of losing profits and market share. Cornelia outlines the ways in which companies can use GitOps to improve profits and company growth in the 4 categories (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
 
-
-
-
-
 ![alt_text](/slides/2_GitOps_BizValue_Cornelia_7_State_of_DevOps_Table.png "2_GitOps_BizValue_Cornelia_7_State_of_DevOps_Table")
-
 
 **1) Metrics impacted by increasing _App team productivity:_**
 
@@ -225,9 +195,6 @@ These two safety nets (that are a part of the GitOps process and platform) suppo
 The final category that DORA links to company profitability and success is the reduction of mean time to recovery (MTTR). GitOps puts in place systems that deliver on repeatability, which makes it possible to reduce MTTR and the change failure rate.
 
 Cornelia Davis (see 23:50) talks about how repeatability across different environments and across time decreases the change failure rate and mean time to recovery. This is because 
-
-
-
 1. we have a declarative specification of the **entire system** and 
 2. with synchronization, delivery isn’t the last step in the CI pipeline. 
 
@@ -245,12 +212,7 @@ Cornelia Davis (see 26:10) covers how, through GitOps-based Redundancy, organiza
 
 GitOps provides distinct solutions to the DORA categories so that you can connect these operational and process changes directly to your company’s ability to make profits and gain market share.
 
-
-
-
-
 ![alt_text](/slides/3_GitOps_BizValue_Cornelia_32_GitOps=Cloud_native_Delivery_and_Ops.png "3_GitOps_BizValue_Cornelia_32_GitOps=Cloud_native_Delivery_and_Ops")
-
 
 (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
 
@@ -260,11 +222,17 @@ GitOps provides distinct solutions to the DORA categories so that you can connec
 
 **Demo something tangible:**
 
-Kyle Rockman (see 14:48) took a pipeline that took 6 hours and, by using GitOps, demo’d how to shrink it down to a pipeline that one dev could do in 10 minutes. This demo built huge trust in the org and interest in GitOps. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+Kyle Rockman (see 14:48) took a pipeline that took 6 hours and, by using GitOps, demo’d how to shrink it down to a pipeline that one dev could do in 10 minutes. This demo built huge trust in the org and interest in GitOps. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk))
 
-**Demos to assuage concerns of major changes:** Dan Brubaker Horst (33:30) hopes to put together demos that show “this is actually more boring than you were expecting.” The “boring” part shows that you are showing tools that are familiar together with approaches and tools that are new. You’re also showing that you’re trying to solve problems for everyone, not trying to do something crazy for no reason. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+Steve Wade (see 33:26) describes how Mettle proved-out a new way of working in an incident or major outage, cutting the mean-time to recovery to only 20-30 minutes, from a time that was previously unknown. "We videoed it!" says Steve. "They didn't believe we could spin-up a brand new environment from absolutely nothing in 20-30 minutes. So, we videoed it - all the way from creating the account in Amazon, all the way to the platform coming up and actually having workloads running on it and us being able to hit URLs. And the video never lies. **The ability for us to show that the technology works and that these new, cool, bleeding-edge best practices that we’ve implemented are actually serving us well.**" (From [GitOps Days Day 2 Roundtable: Teaching GitOps to your Teams"](https://youtu.be/HHE11BzqXMA))
 
-**Small Blast Radius:** Taylor Dolezal (see 20:00) talks about the value of starting with a small blast radius, something safe to show the value of GitOps. A common point of resistance is that people sometimes feel that the current infra “works” so why change it? Change is hard and being able to demonstrate change in a safe way will help assuage concerns. As Taylor shares, the people who see the demo might say, “You weren’t trying to do anything crazy! This is actually very helpful.” They will be able to see the benefits of GitOps at work. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+**Demos to assuage concerns of major changes:** 
+
+Dan Brubaker Horst (33:30) hopes to put together demos that show “this is actually more boring than you were expecting.” The “boring” part shows that you are showing tools that are familiar together with approaches and tools that are new. You’re also showing that you’re trying to solve problems for everyone, not trying to do something crazy for no reason. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+
+**Small Blast Radius:** 
+
+Taylor Dolezal (see 20:00) talks about the value of starting with a small blast radius, something safe to show the value of GitOps. A common point of resistance is that people sometimes feel that the current infra “works” so why change it? Change is hard and being able to demonstrate change in a safe way will help assuage concerns. As Taylor shares, the people who see the demo might say, “You weren’t trying to do anything crazy! This is actually very helpful.” They will be able to see the benefits of GitOps at work. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 **Bottoms Up Approach:** 
 
@@ -304,17 +272,11 @@ Taylor Dolezal (see 39:15) adds the importance of being an active listener. Real
 Javeria Kahn (see 8:40) outlines the key stakeholders that you’ll want to include in the conversations around GitOps. 
 
 For the infrastructure layer, you’ll want to talk with the 
-
-
-
 1. SREs, 
 2. Infrastructure engineers, and 
 3. Management. 
 
 For the app layer (see 18:15), include stakeholders such as the 
-
-
-
 1. Developers and the 
 2. DevOps/Test Engineers. 
 
@@ -322,7 +284,7 @@ For the app layer (see 18:15), include stakeholders such as the
 
 Dan Brubaker Horst (33:30) resolved to take the people most concerned about change and to make them key stakeholders in the conversation early and for each of the steps in the journey. He also hopes to show through demos that “this is actually more boring than you were expecting.” (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
-**Make management and onboarding to GitOps is a positive experience for your teams:** 
+**Make management and onboarding to GitOps a positive experience for your teams:** 
 
 Taylor Dolezal (see 20:00) and Dan Brubaker Horst (28:10) commented on the value of looking at the human side of change. Aside from GitOps benefits such as deploy frequency, lead time, meantime to restore, change/fail percentage, there’s the need to measure the human elements. Ask yourself: “Is this service easy to manage? Is it easy to get onboarded with GitOps? Is it easy to pull down all of these tools that we’ve set up for the team?” (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
@@ -352,6 +314,14 @@ Kyle Rockman (see 16:15) talked about how they started by identifying and catego
 **_Pain point for Devs: Lower dependence on admins_**
 
 One pain point that Javeria Kahn (see 23:45) mentions for devs is the dependency on admins. If you’re preparing to introduce GitOps to your dev teams, Javeria recommends socializing this benefit to devs because it is likely something they want already. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+
+**Start with something familiar:**
+
+Steve Wade (see 41:00) Starting with something you're familiar with has a small blast radius. If that thing doesn't work, then it's not going to be the end of the world. "For us, it was just a dashbaord. A dashboard not bing online isn't great, but it's not an outage." Starting small with something familiar also allows you to learn the steps. Steve goes on to say they started with the platform workload, but didn't touch any of the developer workloads. Iterating on a number of different approaches on various things and learning lessons there first. "If you’re the GitOps enthusiast within your Organization start with something that you’re familiar with, look at the different approaches, see how it works, and then breed that into a couple of other microservices. Then slowly but surely, drip feed your developers into this process." (From [GitOps Days Day 2 Roundtable: Teaching GitOps to your Teams"](https://youtu.be/HHE11BzqXMA)) 
+
+**Start with staging and dev environments first for infrastrcuture changes**
+
+Javeria Khan (see 42:33) explains as an operator and platform architect, starting out small for her meant rolling out GitOps tools in staging and dev environments first to really get a feel for the tools, processes, features, etc. "When you're adding GitOps tools, like Flux or Flagger to your kubernetes environments you should enable them on staging clusters first and get a feel of what you like and what you don’t like about it. This really allows you to decide which of their features tie in better with your environment and how you're going to integrate them with your workflows. When I was testing out Flux I realized I didn’t want it pulling the images directly because that kind of made rollbacks harder. Instead i just changed the CI to update the image key and the yaml configs and the config repos. This was also beneficial for keeping the deployment specs up-to-date. Any kind of new thing that you’re starting out with, just start out with the dev environment within your infrastructure, that’s a good first starting step." (From [GitOps Days Day 2 Roundtable: Teaching GitOps to your Teams"](https://youtu.be/HHE11BzqXMA)) 
 
 ## Use Cases
 
