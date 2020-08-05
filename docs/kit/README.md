@@ -355,48 +355,43 @@ One pain point that Javeria Kahn (see 23:45) mentions for devs is the dependency
 
 ## Use Cases
 
-**On-prem example using Kubernetes:** Javeria Kahn (see 14:50) breaks down their particular use case and tools first for infrastructure:
-
-
-
-
+### **On-prem example using Kubernetes:** 
+Javeria Kahn (see 14:50) breaks down their particular use case and tools first for infrastructure:
 
 ![alt_text](/slides/4_Practitioner_Highlight_Javeria_IaC_GitOps_in_Practice.png "4_Practitioner_Highlight_Javeria_IaC_GitOps_in_Practice")
 
-
 And then for the app layer (see 20:30):
-
-
 
 ![alt_text](/slides/5_Practitioner_Highlight_Javeria_App_GitOps_in_Practice.png "5_Practitioner_Highlight_Javeria_App_GitOps_in_Practice")
 
-
 (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
-**GitOps for Human and other sources:** Carlos Sanchez (see 12:30) shares how we often talk about GitOps for triggers from human beings but changes can come from UIs, APIs, and from human beings (devs, SREs, people on call, etc). At Adobe, they’ve set up a system so that all of these sources end in Git so that they can get a consistent and up-to-date view of the system. They use APIs or messaging queues between the different systems and translate those events into messages. They use a plug-in in Jenkins that helps you run jobs based on messages as well as microservices to do that. They listen to the messages and API calls, and transform them into Git commits. The commit gets applied to the repo, and then the GitOps pipeline runs. So they merge all of these events from different sources, centralize them in a Git repo through this system, and then span out to the pipeline to deploy. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
+### **GitOps for Human and other sources:** 
+Carlos Sanchez (see 12:30) shares how we often talk about GitOps for triggers from human beings but changes can come from UIs, APIs, and from human beings (devs, SREs, people on call, etc). At Adobe, they’ve set up a system so that all of these sources end in Git so that they can get a consistent and up-to-date view of the system. They use APIs or messaging queues between the different systems and translate those events into messages. They use a plug-in in Jenkins that helps you run jobs based on messages as well as microservices to do that. They listen to the messages and API calls, and transform them into Git commits. The commit gets applied to the repo, and then the GitOps pipeline runs. So they merge all of these events from different sources, centralize them in a Git repo through this system, and then span out to the pipeline to deploy. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
 
-**GitOps for DNS and CDN:** Carlos Sanchez (see 11:13) shares how, at Adobe, they use GitOps for DNS, which shows how you can GitOps all the things! They have files that define which DNS records they need to create for which users. Those files are stored in Git. Every time there’s a change in Git, that triggers an event and a pipeline. They use templating to transform these DNS configs into docs that the DNS API services can consume. They have the same process for CDN where they have definitions in Git, templating, and Jenkins pipelines to call the CDN provider APIs. That way, they have all the things (apps, infrastructure, DNS, CDN - as well as Grafana and Prometheus configs) all stored in Git and managed by GitOps. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
+### **GitOps for DNS and CDN:**
+Carlos Sanchez (see 11:13) shares how, at Adobe, they use GitOps for DNS, which shows how you can GitOps all the things! They have files that define which DNS records they need to create for which users. Those files are stored in Git. Every time there’s a change in Git, that triggers an event and a pipeline. They use templating to transform these DNS configs into docs that the DNS API services can consume. They have the same process for CDN where they have definitions in Git, templating, and Jenkins pipelines to call the CDN provider APIs. That way, they have all the things (apps, infrastructure, DNS, CDN - as well as Grafana and Prometheus configs) all stored in Git and managed by GitOps. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
 
-**Reconciliation is the key to GitOps + Pull model for scale:** Is GitOps just infrastructure as code? GitOps brings the CD part to the infra as code through reconciliation. Carlos Sanchez (see 5:58) talks about, at Adobe, how they use GitOps approaches with Terraform and cloud providers’ infra as code offerings. They make changes to the Git repos to deploy and update the infra as needed. They also use GitOps for their apps. For that, they have apps defined in Git that are automatically deployed across clusters and namespaces. For this, they learned that the push model wouldn’t scale to their needs so moved to a pull model. With the pull model, the Jenkins pipelines push the Git configs somewhere and then from inside the clusters services pull the configs and reapply the changes as needed to the namespaces, Kubernetes environments, etc. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
+### **Reconciliation is the key to GitOps + Pull model for scale:** 
+Is GitOps just infrastructure as code? GitOps brings the CD part to the infra as code through reconciliation. Carlos Sanchez (see 5:58) talks about, at Adobe, how they use GitOps approaches with Terraform and cloud providers’ infra as code offerings. They make changes to the Git repos to deploy and update the infra as needed. They also use GitOps for their apps. For that, they have apps defined in Git that are automatically deployed across clusters and namespaces. For this, they learned that the push model wouldn’t scale to their needs so moved to a pull model. With the pull model, the Jenkins pipelines push the Git configs somewhere and then from inside the clusters services pull the configs and reapply the changes as needed to the namespaces, Kubernetes environments, etc. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
 
-**Fidelity Infrastructure team using EKS and GitOps tools to provide a platform with “bundled” features:**
-
+### **Fidelity Infrastructure team using EKS and GitOps tools to provide a platform with “bundled” features:**
 Niraj Amin (see 9:41) shares how his platform team at Fidelity uses EKS and about 15-16 different components to enable their dev teams (things like ALB ingress controller, external DNS, etc.). They combine features from EKS, open source, infrastructure code, and custom operators to provide their dev teams with a set of features such as automation. This “bundle” of offerings is their platform that provides services across business units and environments. For instance, if they make a change to the ingress rule for a security group, that group would essentially receive another version of the platform “bundle.” So dev teams, DevOps teams, SRE teams, etc. would be able to upgrade their platform to include the set of features that are “bundled” together by the platform team. The end goal is for those teams is not to have to think about the platform at all and to focus on their roles.
 
-**Culture based on stability:** 
-
+### **Culture based on stability:** 
 Dan Brubaker Horst (see 33:30) shares how, in a work culture based on job security, there can be general concerns when new approaches, processes, or tools are introduced. Also, their success metrics are not necessarily based on velocity where workflow processes may be scheduled out for weeks. The culture also includes employees whose main role is to maintain legacy systems and to be on call. For these types of use cases, being able to leverage approaches that improve automation and reliability doesn’t mean lower job security. In fact, as Vuk Gojnic shares, it means that the team can scale and do more with existing tools and team members, not lose their jobs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
 Kyle Rockman shares similar stories that the team worked to automate themselves out of their current jobs, but onto more improvements because there’s always more to do! (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-**GitOps that started with the infrastructure team:** 
-
+### **GitOps that started with the infrastructure team:**
 Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goal of automating the infrastructure. Then, over time, as the practice became pervasive and known, they handed over the keys to the engineers. This way, they took small steps with particular teams, gained a level of comfort with GitOps across the various teams, and “leveled up” across the org. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
 
 ## First GitOps steps for your dev and platform teams
 
-### GitOps Hands-On:
+### GitOps Resources:
+
+**GitOps Hands-On:**
 
 [ ] Try [this GitOps Hands-On](https://eks.handson.flagger.dev/) to get a tangible experience of GitOps and a canary deployment
 
@@ -407,8 +402,6 @@ Kyle Rockman (see 7:45) shares how, at Under Armour, GitOps started with the goa
 ### GitOps Tools:
 
 Tools mentioned by GitOps Days speakers include:
-
-
 
 *   [Ansible](https://www.ansible.com) - [Mentioned at GitOps Days](https://www.youtube.com/watch?v=HJHLIGL8NfQ)
 *   [ArgoCD](https://argoproj.github.io/argo-cd/) - [Mentioned at GitOps Days](https://youtu.be/LLzH_ADdjEA)
