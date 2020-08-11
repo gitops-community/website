@@ -87,8 +87,8 @@ You aren’t constrained to Git. You can use container registries, even ServiceN
 
 Hear Cornelia Davis break this down (see 9:57) (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
-Kyle talks about “SheetOps” where, as long as you have version control, you can use something like Google Sheets as a UI for Gitops-types processes. 
-
+Kyle talks about “SheetOps” where, as long as you have version control, you can use something like Google Sheets as a UI for Gitops-types processes. (See 21:48) Kyle describes how by using GitOps methodology they are now able to easily manage a cost-attribution process that is high impact to the business, but low impact to the system. (From [GitOps Everywhere!](https://youtu.be/VYwfZQc7hxc)– Kyle Rockman in conversation with Cornelia Davis) 
+>*"The real value of 'SheetOps' is bringing value to departments that are unfamiliar with Git - someone working in spreadsheets all day can now do operations easily."* - Kyle Rockman, Lead Infrastructure Engineer, Under Armour
 
 ### The Future of GitOps
 
@@ -100,60 +100,6 @@ Hear Cornelia break this down (see 9:57) (From [There's More to GitOps than Meet
 
 
 ## The Business value of GitOps
-
-### Scaling the team and meeting CapEx and OpEx needs:
-
-Vuk Gojnic of Deutsche Telekom (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
-
-Kyle Rockman (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
-
-### Uptime and Reliability:
-
-Taylor Dolezal (25:55) shares how uptime is a common go-to shared benefit where leadership and teams can find agreement, so talking about how GitOps improves uptime can be a good starting point. From there, failure rates, SLOs, SLAs, and SLIs can be a place to find common goals and priorities. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
-
-Kyle Rockman (see 5:54) says that GitOps brings Speed and Reliability to ship more quickly with confidence. This is because GitOps includes explicit review processes that eliminate human errors. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
-
-### Automation:
-
-Vuk Gojnic (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
-
-Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy_** that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
-
-### Security:
-
-Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error, breaches, and vulnerabilities before they become costly company-wide problems.
-
-GitOps allows what Maya calls “Continuous Security” - the ability to be continuously integrating security at all times. When you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. 
-
-So what is GitOps for Security? 
-
-GitOps provides 1) Immutable infrastructure, 2) Single source of truth, and 3) Dev velocity to help you automate security.
-1. **Immutable infrastructure:** immutability protects you from making changes and errors. Since deployments are separate from development, you can deploy frequently knowing that if something goes wrong, then you find out immediately. 
-2. **Single source of truth:** Having a single source of truth means that you have a single process to make changes. You can use Git to manage policies and implement necessary controls to meet your security needs.
-3. **Dev velocity:** version control, test automation, and other tooling available with Git allow devs to move faster and securely. With GitOps, you can optimize your mean time to remediate (MTTR) because if an upgrade is susceptible to vulnerabilities, you can quickly deploy a fix without breaking the infrastructure. For instance, users of GitHub’s Dependabot feature receive an automatically triggered PR to update a vulnerable dependency to a known fixed version. Repos that have enabled Dependabot have shown an average MTTR of about 40 days, way lower than many industry metrics that range from 180 days to 2 years. 
-
-GitOps also improves security of the dev pipeline in 3 ways: 
-1. **Code:** using Git means that you have a static file for comparing requirements. In YAML it’s pretty easy to check if you’re meeting them. If your access policies are declared in a config file, you know who has access to what and you can verify it in code. 
-2. **Changes:** you have versioning so you know what you shipped and can roll back. Your commit history is an audit of comments, reviews, and a history of decisions that were made to your repo. 
-3. **Production:** the single source of truth with a single process removes the humans who are error prone. You implement a single set of tests, security scans, and permissions to make these changes securely.
-
-GitOps provide Continuous Security, which will help you with supportability and security. If you want GitOps, discuss these benefits with your security team and how it will make both of your jobs easier. (From [Security and GitOps – Maya Kaczorowski (GitHub)](https://youtu.be/mneDm2ebl-g) 
-
-Kyle Rockman (see 5:54) says that GitOps creates an audit trail so that you can show the auditors what’s been happening and you can meet PCI compliance requirements. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
-
-### Transparency and Collaboration:
-
-Javeria Kahn (see 6:00) shares how GitOps brings transparency to the org primarily from two capabilities: 
-1. **Reversibility:** You can do rollbacks and lower mean time to resolving config-based outages with version controlling.
-2. **Audit trails:** You can track the history of a repo, its PRs, actions, etc.
-
-Because of these 2 benefits, the teams are able to build <span style="text-decoration:underline;">transparency</span>: there are no more obscure system changes and you become less dependent on individual employees who reach burnout from being on call. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
-
-Javeria (see 7:50) states that GitOps promotes <span style="text-decoration:underline;">collaboration</span> between teams that build and use their resources. Between transparency and collaboration through GitOps, teams are able to improve the entire software development lifecycle. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
-
-### Reduce the risk of relying on single employees:
-
-Relying on individual employees who live with the pager both raises risk for the company and causes burnout with the employee. Javeria Kahn (see 6:00) states that automation based on GitOps helps employees not get burned out, helps them expand their role, and helps reduce risk for the company with a reliable system. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
 ### Use metrics from DevOps Research and Assessment (DORA):
 
@@ -215,6 +161,61 @@ GitOps provides distinct solutions to the DORA categories so that you can connec
 ![alt_text](/slides/3_GitOps_BizValue_Cornelia_32_GitOps=Cloud_native_Delivery_and_Ops.png "3_GitOps_BizValue_Cornelia_32_GitOps=Cloud_native_Delivery_and_Ops")
 
 (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
+
+### Scaling the team and meeting CapEx and OpEx needs:
+
+Vuk Gojnic of Deutsche Telekom (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+
+Kyle Rockman (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+
+### Uptime and Reliability:
+
+Taylor Dolezal (25:55) shares how uptime is a common go-to shared benefit where leadership and teams can find agreement, so talking about how GitOps improves uptime can be a good starting point. From there, failure rates, SLOs, SLAs, and SLIs can be a place to find common goals and priorities. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
+
+Kyle Rockman (see 5:54) says that GitOps brings Speed and Reliability to ship more quickly with confidence. This is because GitOps includes explicit review processes that eliminate human errors. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+
+### Automation:
+
+Vuk Gojnic (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+
+Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy_** that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+
+### Security:
+
+Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error, breaches, and vulnerabilities before they become costly company-wide problems.
+
+GitOps allows what Maya calls “Continuous Security” - the ability to be continuously integrating security at all times. When you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. 
+
+So what is GitOps for Security? 
+
+GitOps provides 1) Immutable infrastructure, 2) Single source of truth, and 3) Dev velocity to help you automate security.
+1. **Immutable infrastructure:** immutability protects you from making changes and errors. Since deployments are separate from development, you can deploy frequently knowing that if something goes wrong, then you find out immediately. 
+2. **Single source of truth:** Having a single source of truth means that you have a single process to make changes. You can use Git to manage policies and implement necessary controls to meet your security needs.
+3. **Dev velocity:** version control, test automation, and other tooling available with Git allow devs to move faster and securely. With GitOps, you can optimize your mean time to remediate (MTTR) because if an upgrade is susceptible to vulnerabilities, you can quickly deploy a fix without breaking the infrastructure. For instance, users of GitHub’s Dependabot feature receive an automatically triggered PR to update a vulnerable dependency to a known fixed version. Repos that have enabled Dependabot have shown an average MTTR of about 40 days, way lower than many industry metrics that range from 180 days to 2 years. 
+
+GitOps also improves security of the dev pipeline in 3 ways: 
+1. **Code:** using Git means that you have a static file for comparing requirements. In YAML it’s pretty easy to check if you’re meeting them. If your access policies are declared in a config file, you know who has access to what and you can verify it in code. 
+2. **Changes:** you have versioning so you know what you shipped and can roll back. Your commit history is an audit of comments, reviews, and a history of decisions that were made to your repo. 
+3. **Production:** the single source of truth with a single process removes the humans who are error prone. You implement a single set of tests, security scans, and permissions to make these changes securely.
+
+GitOps provide Continuous Security, which will help you with supportability and security. If you want GitOps, discuss these benefits with your security team and how it will make both of your jobs easier. (From [Security and GitOps – Maya Kaczorowski (GitHub)](https://youtu.be/mneDm2ebl-g) 
+
+Kyle Rockman (see 5:54) says that GitOps creates an audit trail so that you can show the auditors what’s been happening and you can meet PCI compliance requirements. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+
+### Transparency and Collaboration:
+
+Javeria Kahn (see 6:00) shares how GitOps brings transparency to the org primarily from two capabilities: 
+1. **Reversibility:** You can do rollbacks and lower mean time to resolving config-based outages with version controlling.
+2. **Audit trails:** You can track the history of a repo, its PRs, actions, etc.
+
+Because of these 2 benefits, the teams are able to build <span style="text-decoration:underline;">transparency</span>: there are no more obscure system changes and you become less dependent on individual employees who reach burnout from being on call. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+
+Javeria (see 7:50) states that GitOps promotes <span style="text-decoration:underline;">collaboration</span> between teams that build and use their resources. Between transparency and collaboration through GitOps, teams are able to improve the entire software development lifecycle. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+
+### Reduce the risk of relying on single employees:
+
+Relying on individual employees who live with the pager both raises risk for the company and causes burnout with the employee. Javeria Kahn (see 6:00) states that automation based on GitOps helps employees not get burned out, helps them expand their role, and helps reduce risk for the company with a reliable system. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+
 
 ## Starting the Conversation
 
@@ -346,7 +347,7 @@ Carlos Sanchez (see 11:13) shares how, at Adobe, they use GitOps for DNS, which 
 Is GitOps just infrastructure as code? GitOps brings the CD part to the infra as code through reconciliation. Carlos Sanchez (see 5:58) talks about, at Adobe, how they use GitOps approaches with Terraform and cloud providers’ infra as code offerings. They make changes to the Git repos to deploy and update the infra as needed. They also use GitOps for their apps. For that, they have apps defined in Git that are automatically deployed across clusters and namespaces. For this, they learned that the push model wouldn’t scale to their needs so moved to a pull model. With the pull model, the Jenkins pipelines push the Git configs somewhere and then from inside the clusters services pull the configs and reapply the changes as needed to the namespaces, Kubernetes environments, etc. (From [GitOps at Adobe – Carlos Sanchez (Adobe)](https://youtu.be/CU9AseP_DOI))
 
 ### **Fidelity Infrastructure team using EKS and GitOps tools to provide a platform with “bundled” features:**
-Niraj Amin (see 9:41) shares how his platform team at Fidelity uses EKS and about 15-16 different components to enable their dev teams (things like ALB ingress controller, external DNS, etc.). They combine features from EKS, open source, infrastructure code, and custom operators to provide their dev teams with a set of features such as automation. This “bundle” of offerings is their platform that provides services across business units and environments. For instance, if they make a change to the ingress rule for a security group, that group would essentially receive another version of the platform “bundle.” So dev teams, DevOps teams, SRE teams, etc. would be able to upgrade their platform to include the set of features that are “bundled” together by the platform team. The end goal is for those teams is not to have to think about the platform at all and to focus on their roles.
+Niraj Amin (see 9:41) shares how his platform team at Fidelity uses EKS and about 15-16 different components to enable their dev teams (things like ALB ingress controller, external DNS, etc.). They combine features from EKS, open source, infrastructure code, and custom operators to provide their dev teams with a set of features such as automation. This “bundle” of offerings is their platform that provides services across business units and environments. For instance, if they make a change to the ingress rule for a security group, that group would essentially receive another version of the platform “bundle.” So dev teams, DevOps teams, SRE teams, etc. would be able to upgrade their platform to include the set of features that are “bundled” together by the platform team. The end goal is for those teams is not to have to think about the platform at all and to focus on their roles. (From [GitOps Days Day 2 Roundtable](https://youtu.be/HHE11BzqXMA)
 
 ### **Culture based on stability:** 
 Dan Brubaker Horst (see 33:30) shares how, in a work culture based on job security, there can be general concerns when new approaches, processes, or tools are introduced. Also, their success metrics are not necessarily based on velocity where workflow processes may be scheduled out for weeks. The culture also includes employees whose main role is to maintain legacy systems and to be on call. For these types of use cases, being able to leverage approaches that improve automation and reliability doesn’t mean lower job security. In fact, as Vuk Gojnic shares, it means that the team can scale and do more with existing tools and team members, not lose their jobs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
@@ -400,8 +401,18 @@ Tools mentioned by GitOps Days speakers include:
 **Teach YAML to your teams (if that’s what you choose to use to describe your configs):**
 
 Kyle Rockman (see 8:24) shares how, at Under Armour, they use YAML and training up their devs to understand the YAML they are writing has paid spades. Trained team mates help each other out, everybody across the org knows best practices, and they organically continue to learn as new features come out.
-
 (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+>*"The reason that we wanted people to understand and be able to write the yaml is it’s a base building block. So, if you understand what’s going on down there, you’re gonna do better at the higher level...and you’re gonna understand how that translates down. We initially started out with Helm..and we didn’t like the black boxy nature of it - we had some issues with not understanding what it was doing under the hood. That really drove us to understand the yaml so that we understand exactly what kubernetes is gonna do, and then we can put a layer of abstraction on top of it."* - Kyle Rockman, Lead Infrastructure Engineer, Under Armour
+
+(see 19:05 from [GitOps Everywhere!](https://youtu.be/VYwfZQc7hxc)– Kyle Rockman in conversation with Cornelia Davis)
+
+**Continuous Delivery and Progressive Delivery:**
+
+Stefan Prodan and Leigh Capili teach you both how to get started with GitOps with some open source technologies, but also how to share key points with your team to get them excited about GitOps in these two sessions:
+- [Flux and Helm: Intro and How to teach your teams!](https://youtu.be/vQbjv7AffVg) - [Slides](https://drive.google.com/file/d/1FgzOxoSCfc2R148T5J-Xlee7WBJmb8Mq/view?usp=sharing) Topics include: how to decouple CI from CD (and the value of doing so), continuous operations with controllers and reconcilers, deploying inside the cluster, plus a demo of how to install Flux and Helm.
+- [Flagger and Service Meshes: Intro and How to teach your teams!](https://youtu.be/eMJ0uDvXoH0)- [Slides](https://drive.google.com/file/d/1SXNQqwmBH1O1PwrKq4nx4ascG--fIdF9/view?usp=sharing) Stefan explains how to do Progressive Delivery with a GitOps mindset using tools like Flagger and service meshes. Topics covered include: what is progressive delivery, how Flagger automates the release process by gradually shifting traffic, deployment strategies such as canary, a/b testing, and blue/green (traffic monitoring vs. switiching), declaritive releases, release automation, traffic management, validation process, metric templates, alterting, testing webhooks, manual gating, Flux + Flagger = GitOps Pipeline.
+
+>*"If you get to a point where your team has good maturity, you're doing frequent enough releases where things are breaking and you've got the metrics and the storage and you're now starting to look at why things are breaking, then you're in a perfect place to adopt some progressive delivery and explaining the value of adopting Flagger as opposed to trying to do your own thing."* - Leigh Capili, Developer Experience Engineer, Weaveworks
 
 More teaching resources to come!
 
@@ -431,8 +442,8 @@ Check out the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.c
 
 * [GitOps Today and Tomorrow: Conceptual Overview and Technical Deep Dive – Cornelia Davis](https://drive.google.com/file/d/1YMlZLSaevuYoZ6ZjtCbQ0JpkU3L7ZrBi/view?usp=sharing)
 
-* Flux and Helm: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+* [Flux and Helm: Intro and How to teach your teams – Stefan Prodan and Leigh Capili](https://drive.google.com/file/d/1FgzOxoSCfc2R148T5J-Xlee7WBJmb8Mq/view?usp=sharing)
 
-* Flagger and Service Meshes: Intro and How to teach your teams – Stefan Prodan and Leigh Capili (link coming soon)
+* [Flagger and Service Meshes: Intro and How to teach your teams – Stefan Prodan and Leigh Capili](https://drive.google.com/file/d/1SXNQqwmBH1O1PwrKq4nx4ascG--fIdF9/view?usp=sharing)
 
 * [Thanks, and What’s your next step to GitOps? – Cornelia Davis and Tamao Nakahara](https://drive.google.com/file/d/1JJ4vw9wh5j0tqbq1MUxeKOpqRNepCydR/view?usp=sharing)
