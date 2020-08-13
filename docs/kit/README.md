@@ -384,6 +384,7 @@ Tools mentioned by GitOps Days speakers include:
 *   [Flagger](https://flagger.app) (Weave Flagger) - [Mentioned at GitOps Days](https://www.youtube.com/watch?v=eMJ0uDvXoH0)
 *   [Git](https://git-scm.com)
 *   [GitKube](https://gitkube.sh) - [Mentioned at GitOps Days](https://www.youtube.com/watch?v=HJHLIGL8NfQ)
+*   [GitOps Toolkit](https://toolkit.fluxcd.io/) - [Read the blog post](https://www.weave.works/blog/gitops-with-flux-v2)
 *   [Helm](https://helm.sh) - [Mentioned at GitOps Days](https://youtu.be/vQbjv7AffVg)
 *   [Keiko](https://medium.com/keikoproj/keiko-running-kubernetes-at-scale-1178491c1440) - [Mentioned at GitOps Days](https://youtu.be/LLzH_ADdjEA)
 *   [Kubernetes](https://kubernetes.io)
