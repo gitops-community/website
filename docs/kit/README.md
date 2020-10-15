@@ -51,9 +51,6 @@ GitOps is a paradigm, not a specific tool or technology. GitOps applies to every
 Cornelia adds that **GitOps = Continuous Delivery + Continuous Operation**
 
 In some cases, there might be some requirements for CI, but **_not_** a replacement for CI. (see 14:00) 
-
-![alt_text](/slides/0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps.png "0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps")
-
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
 What do you GitOps? GitOps all the things! Don’t miss the stories and use cases in this kit from GitOps practitioners who are using GitOps for development, operations, and so much more!
