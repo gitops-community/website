@@ -11,18 +11,17 @@ We hope that this kit will provide you with the quotes, use cases, user stories,
 [Weaveworks](https://www.weave.works/) is donating this kit to the GitOps community to improve together moving forward. Please contribute, send requests, and share your feedback for future versions.
 
 
-## TL;DR
+<!-- ## TL;DR -->
 
-You’re probably looking for the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)! 
+<!--You’re probably looking for the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)!  -->
 
-Don’t miss the topic-based guide below to the videos and, in the future, more resources such as blog posts, tutorials, etc.
-
+<!--Don’t miss the topic-based guide below to the videos and, in the future, more resources such as blog posts, tutorials, etc. -->
 
 ## Need Help or want updates?
 
 _Want updates about this kit?_
 
-* Get updates through the very non-spammy GitOps Community list: Register at [https://www.gitopsdays.com/](https://www.gitopsdays.com/) and look out for an email invitation to the list (It's an outbound-only Google Group).
+* [Get updates through the very non-spammy GitOps Community list](https://mailchi.mp/7e9e02588c50/gitops-community)
 
 _Confused about anything or have feedback?_
 
