@@ -40,19 +40,13 @@ _Want to chat with the commmunity?_
 
 ## What is GitOps?
 
-GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business value. (see 1:53) (From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
-
-What do you GitOps? GitOps all the things! Don’t miss the stories and use cases in this kit from GitOps practitioners who are using GitOps for development, operations, and so much more!
-
 GitOps is an app dev and operations methodology that leverages 
 
 1. an entire system that is described declaratively
 2. code that is version controlled and
 3. software agents that reconcile and ensure correctness (along with alerts, etc). 
 
-Cornelia Davis (see 1:50) gives a great overview of the evolution of GitOps from being mostly a delivery process to going beyond that into all areas of application development and operations. (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
-
-Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub))](https://youtu.be/mneDm2ebl-g) 
+GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business value. (see 1:53) (From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
 
 Cornelia adds that **GitOps = Continuous Delivery + Continuous Operation**
 
@@ -61,6 +55,13 @@ In some cases, there might be some requirements for CI, but **_not_** a replacem
 ![alt_text](/slides/0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps.png "0_More_to_GitOps_Than_Meets_the_Eye_18_GitOps=CD+COps")
 
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
+
+What do you GitOps? GitOps all the things! Don’t miss the stories and use cases in this kit from GitOps practitioners who are using GitOps for development, operations, and so much more!
+
+Cornelia Davis (see 1:50) gives a great overview of the evolution of GitOps from being mostly a delivery process to going beyond that into all areas of application development and operations. (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
+
+Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub))](https://youtu.be/mneDm2ebl-g) 
+
 
 ### The 4 Principles of GitOps
 
