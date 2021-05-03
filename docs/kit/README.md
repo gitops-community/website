@@ -40,13 +40,13 @@ _Want to chat with the commmunity?_
 
 ## What is GitOps?
 
-GitOps is an app dev and operations methodology that leverages 
+GitOps is an app dev and operations methodology that leverages: 
 
 1. an entire system that is described declaratively
 2. code that is version controlled and
 3. software agents that reconcile and ensure correctness (along with alerts, etc). 
 
-GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business value. (see 1:53) (From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
+GitOps is a paradigm, not a specific tool or technology. GitOps applies to everything and brings business, dev, and operational value. (see 1:53) (From [“If you remember one thing about GitOps today, it’s …” & Thanks! – Cornelia Davis](https://youtu.be/F4OnL1PWJXg)) 
 
 Cornelia adds that **GitOps = Continuous Delivery + Continuous Operation**
 
@@ -59,33 +59,35 @@ Cornelia Davis (see 1:50) gives a great overview of the evolution of GitOps from
 
 Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub))](https://youtu.be/mneDm2ebl-g) 
 
+## Why do GitOps?
+
+GitOps brings together developer best practices and operations. It takes advantage of a declarative system to manage the configuration and operations of every element of the platform - from the infrastructure through to the applications. GitOps also provides observability and control, ensuring that the platform is reliable and operable. 
 
 ### The 4 Principles of GitOps
 
-You can start your GitOps journey with any one of the following 4 principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia breaks down the 4 principles. (see 7:12) 
+You can start your GitOps journey with any one of the following principles. Many of today’s GitOps practitioners advise to start small and in any category you can. Cornelia breaks down the 4 principles. (see 7:12) 
 
 ![alt_text](/slides/1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps.png "1_More_to_GitOps_Than_Meets_the_Eye_15_Principles_of_GitOps")
 
 
-Most importantly, these are principles, **_not technologies_**. You can apply the principles across many of your existing technologies without replacing them. (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
+Most importantly, these are principles, **_not technologies_**. You can apply the principles across many of your existing technologies without replacing them. (From [There's More to GitOps than Meets the Eye](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
+See also the new [GitOps Working Group](https://github.com/gitops-working-group/gitops-working-group#gitops-principles) in the CNCF, which has been building out the Principles and other GitOps starting points. 
 
 ### GitOps doesn’t mean replacing existing technologies
 
-Getting started with GitOps doesn’t mean you have to replace your existing technologies. The 4 principles of GitOps are principles, not technologies. You can apply the principles across many of your existing and future technologies. 
+Getting started with GitOps doesn’t mean you have to replace your existing technologies. You can apply the principles across many of your existing and future technologies. 
 
 (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
 
-Javeria Kahn (see 11:00 and 18:15) lists out several technologies that your teams probably use already that can get you on the path towards GitOps. For operators, Javeria's team uses Atlantis for Terraform, Salt, Ansible, Puppet, Flux, and ArgoCD, and for app developers, they use Skaffold, Draft, GitKube, Helm, Kustomize, Flux, ArgoCD, and Flagger. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+For example, Javeria Kahn (see 11:00 and 18:15) lists out several technologies that your teams probably use already that can get you on the path towards GitOps. For operators, Javeria's team uses Atlantis for Terraform, Salt, Ansible, Puppet, Flux, and ArgoCD, and for app developers, they use Skaffold, Draft, GitKube, Helm, Kustomize, Flux, ArgoCD, and Flagger. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
 
 ### “GitOps” doesn’t require Git
 
-You aren’t constrained to Git. You can use container registries, even ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
+You aren’t constrained to Git. You can use container registries, ServiceNow and other enterprise configuration management systems. You don’t have to throw out your existing systems.
 
-Hear Cornelia Davis break this down (see 9:57) (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) 
-
-Kyle talks about “SheetOps” where, as long as you have version control, you can use something like Google Sheets as a UI for Gitops-types processes. (See 21:48) Kyle describes how by using GitOps methodology they are now able to easily manage a cost-attribution process that is high impact to the business, but low impact to the system. (From [GitOps Everywhere!](https://youtu.be/VYwfZQc7hxc)– Kyle Rockman in conversation with Cornelia Davis) 
+Cornelia Davis breaks this down in her talk (see 9:57) (From [There's More to GitOps than Meets the Eye ](https://youtu.be/_pdZnVzQIwc)– Cornelia Davis) and Kyle Rockman event talks about “SheetOps” where, as long as you have version control, you can use something like Google Sheets as a UI for Gitops-types processes. (See 21:48) Kyle describes how by using GitOps methodology they are now able to easily manage a cost-attribution process that is high impact to the business, but low impact to the system. (From [GitOps Everywhere!](https://youtu.be/VYwfZQc7hxc)– Kyle Rockman in conversation with Cornelia Davis) 
 >*"The real value of 'SheetOps' is bringing value to departments that are unfamiliar with Git - someone working in spreadsheets all day can now do operations easily."* - Kyle Rockman, Lead Infrastructure Engineer, Under Armour
 
 ### The Future of GitOps
