@@ -59,9 +59,6 @@ Cornelia Davis (see 1:50) gives a great overview of the evolution of GitOps from
 
 Maya Kaczorowski adds that when you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. (From [Security and GitOps – Maya Kaczorowski (GitHub))](https://youtu.be/mneDm2ebl-g) 
 
-## Why do GitOps?
-
-GitOps brings together developer best practices and operations. It takes advantage of a declarative system to manage the configuration and operations of every element of the platform - from the infrastructure through to the applications. GitOps also provides observability and control, ensuring that the platform is reliable and operable. 
 
 ### The 4 Principles of GitOps
 
@@ -162,27 +159,33 @@ GitOps provides distinct solutions to the DORA categories so that you can connec
 
 (From [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ) – Cornelia Davis) 
 
-### Scaling the team and meeting CapEx and OpEx needs:
+## Why do GitOps?
 
-Vuk Gojnic of Deutsche Telekom (29:45) shares that by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+GitOps brings together developer best practices and operations. It takes advantage of a declarative system to manage the configuration and operations of every element of the platform, from the infrastructure through to the applications. GitOps also provides observability and control - ensuring that the platform is reliable and operable.
 
-Kyle Rockman (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+### Real GitOps practicioners share their stores
 
-### Uptime and Reliability:
+#### Scaling the team and meeting CapEx and OpEx needs:
 
-Taylor Dolezal (25:55) shares how uptime is a common go-to shared benefit where leadership and teams can find agreement, so talking about how GitOps improves uptime can be a good starting point. From there, failure rates, SLOs, SLAs, and SLIs can be a place to find common goals and priorities. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
+**Vuk Gojnic** of **Deutsche Telekom** (29:45) shares that, by having the team spend less time on repetitive tasks, they can scale and do more with the same streamlined team. Similarly, with a self-healing platform, that means that the service desk team is dealing with fewer tickets when the system can resolve some of them itself. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
 
-Kyle Rockman (see 5:54) says that GitOps brings Speed and Reliability to ship more quickly with confidence. This is because GitOps includes explicit review processes that eliminate human errors. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+**Kyle Rockman** (see 7:03) says that the way to start scaling a team is not by throwing more people at the needs. Instead, you provide automation and self-service to developers. Kyle’s fairly small team could leverage automation and self-service through GitOps to do less manual work and more innovative work. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-### Automation:
+#### Uptime and Reliability:
 
-Vuk Gojnic (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+**Taylor Dolezal** (25:55) shares how uptime is a common go-to shared benefit where leadership and teams can find agreement. GitOps brings improvements to uptime, failure rates, SLOs, SLAs, and SLIs. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s)) 
 
-Kyle Rockman (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service to do what they need to do faster and better. (gaining the **_App team autonomy_** that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+**Kyle Rockman** (see 5:54) says that GitOps brings Speed and Reliability to ship more quickly with confidence. This is because GitOps includes explicit review processes that eliminate human errors. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-### Security:
+#### Automation:
 
-Maya Kaczorowski shares the 3 ways that GitOps contributes to security, and why security is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error, breaches, and vulnerabilities before they become costly company-wide problems.
+**Vuk Gojnic** (see 16:55) talks about how they have infrastructure that manages itself by using Git as the source of truth. That means that the team no longer acts as admins that manage the infrastructure, but as observers or auditors who only intervene when something goes wrong. That’s the value of GitOps for them. (From [GitOps Days Day 1 Roundtable](https://youtu.be/MHgV_9FNU3s))  
+
+**Kyle Rockman** (see 4:40) also shares how the first motivation to look at GitOps was automation. For them, automation would empower the developers to self-service and do what they need to do faster and better. (gaining the **_App team autonomy_** that Cornelia covers in the talk, [GitOps for Cost Efficiency, Compliance, Velocity, Security, Resilience, and more!](https://youtu.be/huKH5xhzQwQ)). (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
+
+#### Security:
+
+**Maya Kaczorowski (GitHub)** shares the ways that GitOps contributes to security, which is important for business. The key business metric for security is no data loss, and having an approach like GitOps helps minimize costly human error, breaches, and vulnerabilities before they become costly company-wide problems.
 
 GitOps allows what Maya calls “Continuous Security” - the ability to be continuously integrating security at all times. When you have everything “as code” with GitOps, you can make your code as automated and error-free as possible. With GitOps, you push a change to code that’s reviewed, and then you use automation to do the hard stuff of deploying, monitoring, etc. You also have a pipeline where devs only need to focus on developing their apps, and any operations or security control can be automatically verified or enforced as part of that pipeline. Teams have a clear separation of responsibilities. 
 
@@ -202,15 +205,15 @@ GitOps provide Continuous Security, which will help you with supportability and 
 
 Kyle Rockman (see 5:54) says that GitOps creates an audit trail so that you can show the auditors what’s been happening and you can meet PCI compliance requirements. (From [GitOps Practitioner Highlight – Under Armour – Kyle Rockman](https://youtu.be/00MCUAgzLQk)) 
 
-### Transparency and Collaboration:
+#### Transparency and Collaboration:
 
-Javeria Kahn (see 6:00) shares how GitOps brings transparency to the org primarily from two capabilities: 
+**Javeria Kahn (Palo Alto Networks)** shares how GitOps brings transparency to the org primarily from two capabilities: 
 1. **Reversibility:** You can do rollbacks and lower mean time to resolving config-based outages with version controlling.
 2. **Audit trails:** You can track the history of a repo, its PRs, actions, etc.
 
-Because of these 2 benefits, the teams are able to build <span style="text-decoration:underline;">transparency</span>: there are no more obscure system changes and you become less dependent on individual employees who reach burnout from being on call. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+Because of these benefits, the teams are able to build **transparency**: there are no more obscure system changes and you become less dependent on individual employees who reach burnout from being on call. (See 6:00 from [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
-Javeria (see 7:50) states that GitOps promotes <span style="text-decoration:underline;">collaboration</span> between teams that build and use their resources. Between transparency and collaboration through GitOps, teams are able to improve the entire software development lifecycle. (From [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
+Javeria also states that GitOps promotes **collaboration** between teams that build and use their resources. Between transparency and collaboration through GitOps, teams are able to improve the entire software development lifecycle. (See 7:50 from [GitOps Practitioner Highlight – Palo Alto Networks – Javeria Khan](https://youtu.be/HJHLIGL8NfQ)) 
 
 ### Reduce the risk of relying on single employees:
 
