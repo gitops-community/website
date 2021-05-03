@@ -5,7 +5,9 @@ sidebarDepth: 2
 # GitOps Conversation Kit (beta)
 
 Congratulations! You have early access to the GitOps Conversation Kit (beta)! 
-**If you joined us for GitOps Days EMEA - here’s a [link to the videos](#gitops-days-emea-2020-youtube-playlist)**
+**Join us for [GitOps Days 2021](https://www.gitopsdays.com/) - June 9 - 10**
+
+If you joined us for GitOps Days 2020 - here are the video links for: [EMEA (Nov-2020)](/#gitops-days-emea-2020-youtube-playlist) and [North America (May-2020)](#gitops-days-2020-youtube-playlist)
 
 We hope that this kit will provide you with the quotes, use cases, user stories, training materials, and more so that you can move the needle with GitOps in your organization - with leadership, stakeholders, and dev and platform teams. 
 
