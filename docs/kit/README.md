@@ -5,9 +5,8 @@ sidebarDepth: 2
 # GitOps Conversation Kit (beta)
 
 Congratulations! You have early access to the GitOps Conversation Kit (beta)! 
-**Join us for [GitOps Days 2021](https://www.gitopsdays.com/) - June 9 - 10**
 
-If you joined us for GitOps Days 2020 - here are the video links for: [EMEA (Nov-2020)](/#gitops-days-emea-2020-youtube-playlist) and [North America (May-2020)](#gitops-days-2020-youtube-playlist)
+If you joined us for GitOps Days 2021 here's the [video link](/#gitops-days-2021-youtube-playlist) - and here are the video links for GitOps Days 2020: [GitOps Days EMEA 2020](/#gitops-days-emea-2020-youtube-playlist) and [GitOps Days Americas 2020](#gitops-days-2020-youtube-playlist)
 
 We hope that this kit will provide you with the quotes, use cases, user stories, training materials, and more so that you can move the needle with GitOps in your organization - with leadership, stakeholders, and dev and platform teams. 
 
@@ -423,13 +422,83 @@ Stefan Prodan and Leigh Capili teach you both how to get started with GitOps wit
 More teaching resources to come!
 
 
-# GitOps Days 2020 Sessions
+# GitOps Days
+
+## GitOps Days 2021 YouTube Playlist
+Check out the [GitOps Days 2021 YouTube Playlist of talks](https://youtube.com/playlist?list=PL9lTuCFNLaD3bglbKKia5ELAoutBupygT)
+
+## GitOps Days 2021 Slides
+
+* [Keynote: Has GitOps Reached an Inflection Point? - Cornelia Davis](https://drive.google.com/file/d/1f7OcEc6u8CQVCjpUtVWfcMdbbyxTUY6D/view?usp=sharing)
+
+* Keynote: GitOps in Microsoft Azure with Flux - Chris Sanders & Jonathan Innis (Microsoft)
+
+* [Keynote: Evolving DevOps to GitOps - Nathan Taber (AWS)](https://drive.google.com/file/d/1PIAFQkUWsD4CPHXOPfPZ8mLMAbhEZ1NX/view?usp=sharing)
+
+* [Keynote: GitOps in the Next Five Years - Justin Cormack (Docker)](https://drive.google.com/file/d/1PBXFFw3EGEZbpgFqGUERHLyI2JDh91cC/view?usp=sharing)
+
+* [How We Sailed into Production - GitOps-based CaaS at Deutche Telekom - Maximilian Rink & Marcel Fest (Deutsche Telekom)](https://drive.google.com/file/d/1PCHr5mIBrHLNCvtVVeBCl5y0yeA3W_nu/view?usp=sharing)
+
+* [GitOps Loops: A Step Twoards Autonomous Infrastructure - Vuk Gojnic (Deutsche Telekom)](https://drive.google.com/file/d/1P7KM4mOzUyCmtMb3lidw8MD0NrOLhW6w/view?usp=sharing)
+
+* From Wild West to Flux Multi-Tenancy - Mae Large & Russ Parmer (State Farm)
+
+* [GitOps Maturity Model - Paul Fremantle & Tiffany Wang](https://drive.google.com/file/d/1e2snotEWPrkHVq963P_ttlccOtv6I41r/view?usp=sharing)
+
+* [MLOps - GitOps for Machine Learning - Paul Curtis](https://drive.google.com/file/d/1PHBOak2IjxDa6m5QBzkzVJNot8SKrzRH/view?usp=sharing)
+
+* [Flux Deep Dive - Stefan Prodan](https://drive.google.com/file/d/1be0-pT3zVbDh0PhOmS4AmllmxBpug6GC/view?usp=sharing)
+
+* [Orchestrating SLO-driven Multi-stage Delivery with Keptn: Merging GitOps and Data-driven Delivery - Jürgen Etzlstorfer (Dynatrace)](https://drive.google.com/file/d/1Hvqj99-y4mLd5PLdEaGLTFfrwv294jpE/view?usp=sharing)
+
+* [Implementing Continuous Deployment in Kubernetes - Miguel Fontanilla (Sennder) & Jose Talavera](https://drive.google.com/file/d/1PiPP-DZqMXx5bl_q3r8FtJsjgds-hT4K/view?usp=sharing)
+
+* Using Source Code Management Patterns to Configure and Secure your Kubernetes Clusters - Giovanni Galloro (Giovanni Galloro)
+
+* [GitOps at scale using Fleet - Saiyam Pathak (Civo)](https://drive.google.com/file/d/1QHP6dbMT-IzahlnvhqnvBsYUcoeutc67/view?usp=sharing)
+
+* GitOpsify All The Things 🔨 – Tools, Apps, Even Your Organization and Teams! - Cansu Kavili Örnek & Donal Spring (Red Hat)
+
+* [Visualizing the GitOps Journey of a container - Samiya Akhtar (Microsoft)](https://drive.google.com/file/d/1E5y5ZmdHetzLsnQA6Sl58REYGkHBNepE/view?usp=sharing)
+
+* So Many GitOps Tools, So Little Time: GitOps on AWS Best Practices - Paul Roberts (AWS)
+
+* [Closing Keynote: Building a Web-Scale Internal Developer Platform at Alibaba - Lei "Harry" Zhang (Alibaba Cloud)](https://drive.google.com/file/d/1PkC-b-FvzX1Vz8dnxrT9VVUpiivaxdZT/view?usp=sharing)
+
 
 ## GitOps Days EMEA 2020 YouTube Playlist
 Check out the [GitOps Days EMEA 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD1AufVruv-0vFQWZGyu15G2)
 
 ## GitOps Days EMEA 2020 Slides
-Coming Soon...
+
+* [What is GitOps? - Alexis Richardson](https://drive.google.com/file/d/1lzlAsx8t0yUBE_O-N2z0MOplML34QaH9/view?usp=sharing)
+
+* [The Business Value of GitOps - Paul Fremantle](https://drive.google.com/file/d/1lNrtMlW77BjDL6UYzCXz8TpZc6BrcoFO/view?usp=sharing)
+
+* [The GitOps Ecosystem Today - Alison Dowdney](https://drive.google.com/file/d/12VqrkqzHn54MhZD2ZzhIPtiqbT9JD1Ad/view?usp=sharing)
+
+* [Our Journey Building a Self-Service Platform - Steve Wade & Gavin McNair](https://drive.google.com/file/d/1WzYSuWUMvswlvtQz1rjRuClHQoYOfMQ7/view?usp=sharing)
+
+* [Security Benefits from Adopting GitOps - Ivan Pedrazas (Control Plane)](https://drive.google.com/file/d/1O2STg6wgVnbaJ4s5jAsmYjJpeAyzGvb6/view?usp=sharing)
+
+* [Customer Perspectives on GitOps - Tiffany Wang](https://drive.google.com/file/d/1etFArLS1_UtWk4K7C7975u9zFXBYWYAw/view?usp=sharing)
+
+* [Continuous Security – Building Security Into Your Pipelines - Matt Jarvis (Snyk)](https://drive.google.com/file/d/1iVJbuJXYrz2S4qsGvltN_1Zg9kRcYo3E/view?usp=sharing)
+
+* [Everything C-levels Want to Know About Regulatory Compliance with GitOps - Michael Hausenblas](https://drive.google.com/file/d/1_AkXMzFhcfddAdl0mjEq8fb_c5yyPmLT/view?usp=sharing)
+
+* [Security, Compliance, & Governance for Your Enterprise Use Case - Kenichi Shibata](https://drive.google.com/file/d/1lKyDyC3x0cucxlD_vHaKK2J4t_JpVxJm/view?usp=sharing)
+
+* [Dr. Strange-Bugs: GitOps for Data Science & Dev Teams - David Allen (Hypergiant)](https://drive.google.com/file/d/1Dp4P29oBdd5pAgCC_VCZ-kQAYGH111st/view?usp=sharing)
+
+* [GitOps for Helm Business Value - Scott Rigby](https://drive.google.com/file/d/1wJOP-m_3lhyQUSpHkRQRrm_BU9XAPvfy/view?usp=sharing)
+
+* [From Business Value to Technical Value of GitOps - Paul Fremantle](https://drive.google.com/file/d/1gKl-BRlZVdCXY0RVVWaF9msOBq4-q4n_/view?usp=sharing)
+
+* [Applying the Law of Demeter to GitOps - David McKay (Rawkode)](https://drive.google.com/file/d/1Esxu7UFAWN9U4CbME7qss4NDdTfEo80y/view?usp=sharing)
+
+* [Helm Users! What Flux 2 can do for you! - Scott Rigby](https://drive.google.com/file/d/1cR2MYCgVLi8_Pi__xU6BwJWCg_ZKRIny/view?usp=sharing)
+
 
 ## GitOps Days 2020 YouTube Playlist
 Check out the [GitOps Days 2020 YouTube Playlist of talks](https://www.youtube.com/playlist?list=PL9lTuCFNLaD2NiNrdt7SaQjpYx_m37czS)! 
