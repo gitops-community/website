@@ -453,7 +453,7 @@ Check out the [GitOps Days 2021 YouTube Playlist of talks](https://youtube.com/p
 
 * [Implementing Continuous Deployment in Kubernetes - Miguel Fontanilla (Sennder) & Jose Talavera](https://drive.google.com/file/d/1PiPP-DZqMXx5bl_q3r8FtJsjgds-hT4K/view?usp=sharing)
 
-* Using Source Code Management Patterns to Configure and Secure your Kubernetes Clusters - Giovanni Galloro (Giovanni Galloro)
+* Using Source Code Management Patterns to Configure and Secure your Kubernetes Clusters - Giovanni Galloro (Google)
 
 * [GitOps at scale using Fleet - Saiyam Pathak (Civo)](https://drive.google.com/file/d/1QHP6dbMT-IzahlnvhqnvBsYUcoeutc67/view?usp=sharing)
 
