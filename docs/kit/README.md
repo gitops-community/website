@@ -431,7 +431,7 @@ Check out the [GitOps Days 2021 YouTube Playlist of talks](https://youtube.com/p
 
 * [Keynote: Has GitOps Reached an Inflection Point? - Cornelia Davis](https://drive.google.com/file/d/1f7OcEc6u8CQVCjpUtVWfcMdbbyxTUY6D/view?usp=sharing)
 
-* Keynote: GitOps in Microsoft Azure with Flux - Chris Sanders & Jonathan Innis (Microsoft)
+* [Keynote: GitOps in Microsoft Azure with Flux - Chris Sanders & Jonathan Innis (Microsoft)](https://drive.google.com/file/d/1KBid56IVQwAgmlqRJDSUuEXBk7RoldF5/view?usp=sharing)
 
 * [Keynote: Evolving DevOps to GitOps - Nathan Taber (AWS)](https://drive.google.com/file/d/1PIAFQkUWsD4CPHXOPfPZ8mLMAbhEZ1NX/view?usp=sharing)
 
