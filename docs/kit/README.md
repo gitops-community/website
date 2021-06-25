@@ -457,7 +457,7 @@ Check out the [GitOps Days 2021 YouTube Playlist of talks](https://youtube.com/p
 
 * [GitOps at scale using Fleet - Saiyam Pathak (Civo)](https://drive.google.com/file/d/1QHP6dbMT-IzahlnvhqnvBsYUcoeutc67/view?usp=sharing)
 
-* GitOpsify All The Things 🔨 – Tools, Apps, Even Your Organization and Teams! - Cansu Kavili Örnek & Donal Spring (Red Hat)
+* [GitOpsify All The Things 🔨 – Tools, Apps, Even Your Organization and Teams! - Cansu Kavili Örnek & Donal Spring (Red Hat)](https://drive.google.com/file/d/1ZyAQQM-uT9jCvFVvMq3KT1z_aMyrkqbI/view?usp=sharing)
 
 * [Visualizing the GitOps Journey of a container - Samiya Akhtar (Microsoft)](https://drive.google.com/file/d/1E5y5ZmdHetzLsnQA6Sl58REYGkHBNepE/view?usp=sharing)
 
